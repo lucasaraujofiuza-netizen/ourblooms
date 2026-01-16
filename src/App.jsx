@@ -1,11 +1,11 @@
 
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-
+import Home from '../src/components/Home.jsx'
 import Navbar from './components/Navbar.jsx'
 import About from './pages/About.jsx'
 import Gallery from './pages/Gallery.jsx'
-import Home from './components/Home.jsx'
+
 
 import{BrowserRouter, Routes, Route} from 'react-router-dom'
 function App(){
