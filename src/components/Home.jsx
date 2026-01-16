@@ -1,5 +1,5 @@
 
-function home(){
+function Home(){
    <>
        <div> 
 <p className="Who_we_are_container"/> 
@@ -35,7 +35,7 @@ function home(){
         </>
     
 }
- export default home;
+ export default Home;
 
 
 

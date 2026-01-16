@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar.jsx'
 import About from './pages/About.jsx'
 import Gallery from './pages/Gallery.jsx'
+import Home from './components/home.jsx'
 
 import{BrowserRouter, Routes, Route} from 'react-router-dom'
 function App(){
@@ -13,7 +14,7 @@ function App(){
      <BrowserRouter>
      <Navbar/>
      <Routes>
-       <Route path='/'element={<App/>}> </Route>
+       <Route path='/'element={<Home/>}> </Route>
        <Route path='/gallery'element={<Gallery/>}> </Route>
        <Route path='/about'element={<About/>}> </Route>
      </Routes>
