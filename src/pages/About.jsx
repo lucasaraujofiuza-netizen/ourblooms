@@ -1,18 +1,18 @@
 import Footer from "../components/footer.jsx";
 import styles from '../styles/about.module.css'
 import Lady from '../assets/AboutPage/lady.png'
-import Lady1 from '../assets/AboutPage/lady1.png'
-import Lady2 from '../assets/AboutPage/lady2.png'
+import Lady1 from '../assets/AboutPage/lady-1.png'
+import Lady2 from '../assets/AboutPage/lady-2.png'
 
 import Img1A from '../assets/AboutPage/Image 01-1.png'
 import Img1b from '../assets/AboutPage/Image 01-2.png'
 import Img1c from '../assets/AboutPage/Image 01.png'
 
-import Img2A from '../assets/AboutPage/Image 02-01.png'
-import Img2b from '../assets/AboutPage/Image 02-02.png'
+import Img2A from '../assets/AboutPage/Image 02-1.png'
+import Img2b from '../assets/AboutPage/Image 02-2.png'
 import Img2c from '../assets/AboutPage/Image 02.png'
 
-import Img3A from '../assets/AboutPage/Image 03-01.png'
+import Img3A from '../assets/AboutPage/Image 03.png'
 import Img3b from '../assets/AboutPage/Image 03-2.png'
 import Img3c from '../assets/AboutPage/Image 03-1.png'
 
