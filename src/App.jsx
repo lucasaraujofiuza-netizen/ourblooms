@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
 import Navbar from './components/Navbar.jsx'
-import About from './components/About.jsx'
+import About from './pages/About.jsx'
+import Gallery from './pages/Gallery.jsx'
 
 import{BrowserRouter, Routes, Route} from 'react-router-dom'
 function App(){
@@ -13,8 +14,8 @@ function App(){
      <Navbar/>
      <Routes>
        <Route path='/'element={<App/>}/>
-       <Route path='/gallery'element={<App/>}/>
-       <Route path='/about'element={<App/>}/>
+       <Route path='/gallery'element={<Gallery/>}/>
+       <Route path='/about'element={<About/>}/>
      </Routes>
      </BrowserRouter>
      

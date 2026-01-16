@@ -1,4 +1,4 @@
-import footer from "../components/footer";
+import Footer from "../components/footer.jsx";
 import styles from '../styles/about.module.css'
 import Lady from '../assets/AboutPage/lady.png'
 import Lady1 from '../assets/AboutPage/lady1.png'
@@ -19,8 +19,6 @@ import Img3c from '../assets/AboutPage/Image 03-1.png'
 import ImgBreak from '../assets/AboutPage/big1.png'
 import ImgBreak1 from '../assets/AboutPage/big2.png'
 import ImgBreak2 from '../assets/AboutPage/big3.png'
-
-
 
 
 function About(){
