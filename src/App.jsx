@@ -1,8 +1,8 @@
 
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
-import Navbar from './components/Navbar'
+
+import Navbar from './components/Navbar.jsx'
 import About from './components/About.jsx'
 
 import{BrowserRouter, Routes, Route} from 'react-router-dom'
